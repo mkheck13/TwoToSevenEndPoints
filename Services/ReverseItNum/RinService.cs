@@ -1,6 +1,6 @@
 namespace TwoToSevenEndPoints.Services.ReverseItNum
 {
-    public class RinService
+    public class RinService : IRinService
     {
         public string RevNum(int numInput)
         {

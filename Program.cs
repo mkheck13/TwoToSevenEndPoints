@@ -12,9 +12,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IOddService, OddService>();
-// builder.Services.AddScoped<IMadService, MadService>();
-// builder.Services.AddScoped<IRiaService, RiaService>();
-// builder.Services.AddScoped<IRinService, RinService>();
+builder.Services.AddScoped<IMadService, MadService>();
+builder.Services.AddScoped<IRinService, RinService>();
+builder.Services.AddScoped<IRiaService, RiaService>();
+
 
 var app = builder.Build();
 

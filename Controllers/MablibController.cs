@@ -16,10 +16,10 @@ namespace TwoToSevenEndPoints.Controllers;
        }
 
        [HttpGet]
-       [Route("Madlib")]
+       [Route("{name}/{city}/{drink}/{weather}")]
 
-       public string Madlib(string day, string city, string drink, string weather)
+       public string Madlib(string name, string city, string drink, string weather)
        {
-        return _madService.Madlib(day, city, drink, weather);
+        return _madService.Madlib(name, city, drink, weather);
        }
     }
