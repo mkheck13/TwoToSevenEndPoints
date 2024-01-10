@@ -7,5 +7,5 @@
 ## 3. ReverseIt (Alphanumeric): endpoint that accepts a sequence of numbers and letters then reverses them.
 ## 4. ReverseIt (Numbers Only): endpoint that accepts a sequence of only numbers and reverses them.  Be sure to display the original characters before the reversed.  For example:
 
-## Peer Reviewer:
-## Peer Review:
+## Peer Reviewer: Mark Ortega
+## Peer Review: Code looks good and works as intended good job!
